@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>LiveLab 4 Demo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Travel</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
+<!-- Add a class to the body for homepage-specific styling -->
+
+<body class="home-bg">
+    <!-- Header section with website title -->
+    <header>
+        <h1>Eco-Friendly Travel</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero section with a title and mission statement -->
+    <section class="hero" aria-labelledby="hero-title">
+        <h2 id="hero-title">Explore Sustainable Travel Options</h2>
+        <p>
+            Our mission is to inspire and guide travelers to make eco-friendly choices,
+            protect the environment, and support local communities while exploring the world.
+        </p>
+    </section>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Welcome section -->
+        <section aria-labelledby="welcome-title">
+            <h2 id="welcome-title">Welcome to Eco-Friendly Travel!</h2>
+            <p>Discover sustainable travel tips and green destinations.</p>
+        </section>
+
+        <!-- Featured Destinations preview section -->
+        <section aria-labelledby="featured-destinations-title">
+            <h2 id="featured-destinations-title">Featured Destinations</h2>
+            <p>Discover amazing eco-friendly places to visit, such as national parks, eco-resorts, and wildlife sanctuaries. Visit our Destinations page to learn more!</p>
+            <ul>
+                <li>Yellowstone National Park</li>
+                <li>Green Leaf Eco-Resort</li>
+                <li>Rainforest Wildlife Sanctuary</li>
+            </ul>
+        </section>
+
+        <!-- Contact Us preview section -->
+        <section aria-labelledby="contact-preview-title">
+            <h2 id="contact-preview-title">Contact Us</h2>
+            <p>Have questions or want to share your own eco-travel tips? Visit our Contact page to get in touch with us!</p>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Travel</p>
+    </footer>
 </body>
 
+</html>
 </html>
